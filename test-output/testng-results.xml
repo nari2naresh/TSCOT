@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-19T08:54:14Z" name="Default suite" finished-at="2019-02-19T08:54:46Z" duration-ms="32327">
+    <groups>
+    </groups>
+    <test started-at="2019-02-19T08:54:14Z" name="Default test" finished-at="2019-02-19T08:54:46Z" duration-ms="32327">
+      <class name="com.cgg.testcases.contractreg">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:com.cgg.testcases.contractreg@3e7634b9]" started-at="2019-02-19T08:54:09Z" name="beforetest" finished-at="2019-02-19T08:54:14Z" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="f(java.util.Hashtable)[pri:0, instance:com.cgg.testcases.contractreg@3e7634b9]" started-at="2019-02-19T08:54:14Z" name="f" data-provider="getData" finished-at="2019-02-19T08:54:46Z" duration-ms="32304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{sendname=Testing firm7, TC=TC-001, sendnameofemployee=nare testing, sendAadhaarNumber=971368604732, DataFlag=P, selectclassname=Special Class, selectContractorType=Company, sendempid=1947.0, Runmode=Y, selectRelationWithFirmCompany=SELF, sendemployeemobilenumber=9985559653, sendpannumber=dknpA2362q, sendmobilenumber=9985559653, selectcategory=Civil, sendgstnumber=36BBYPN9098A1A1, sendemployeepannumber=dknps2362p, sendemployeemailidnumber=nari2naresh@gmail.com, sendemailid=a2Y@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="Aftertest()[pri:0, instance:com.cgg.testcases.contractreg@3e7634b9]" started-at="2019-02-19T08:54:46Z" name="Aftertest" finished-at="2019-02-19T08:54:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.cgg.testcases.contractreg@3e7634b9]" started-at="2019-02-19T08:54:46Z" name="closeBrowser" finished-at="2019-02-19T08:54:47Z" duration-ms="1103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.cgg.testcases.contractreg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
